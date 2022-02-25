@@ -1,0 +1,31 @@
+.containerPrincipal{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.containerText{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;    
+    justify-content: center;
+    color: green;
+}
+
+.footer{
+    display: flex;    
+    justify-content: center;
+    color: blue;
+}
+
+.video{
+    display: flex;    
+    justify-content: center;
+
+}
