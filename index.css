@@ -1,31 +1,106 @@
-.containerPrincipal{
-    display: flex;    
-    flex-direction: column;
+body {
+    background: linear-gradient(0deg, blue, green 40%, red);
+    height: 100vh;
+}
+
+.logo1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo1 img {
+    width: 80%;
+}
+
+.logo2 {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+.logo2 img {
+    width: 40%;
+}
+
+h1 {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px;
+    background-color: white;
+}
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    padding: 50px;
+}
+
+.containerText {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
     color: red;
 }
 
-.containerText{
-    display: flex;    
-    justify-content: center;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-}
-.header{
-    display: flex;    
-    justify-content: center;
     color: green;
 }
 
-.footer{
-    display: flex;    
+
+
+.video {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: blue;
+
 }
 
-.video{
-    display: flex;    
+iframe {
+    border-radius: 10px;
+}
+
+.VignettePresentationEquipe {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.AffichageEquipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.VignettePersonnage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+
+
+.VignettePersonnage img {
+    width: 150px;
 
 }
