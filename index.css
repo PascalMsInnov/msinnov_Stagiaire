@@ -1,7 +1,18 @@
+/* Ceci est une page CSS, un code de langage qui permet d'établir des élément de style et graphique dans votre site web */
+
+
+/* Dans ce genre de fichier nous allons pouvoir parametrer les différents élément néccéssaire à l'aspect graphique du site web */
+
+
+/* Ceci est une balise maitre "BODY" c'est une balise de base dans le HTML elle permet l'affichage et les parametre de toute la page web */
+
 body {
-    background: linear-gradient(0deg, blue, green 40%, red);
+    background: linear-gradient(0.25turn, blue, green 40%, red);
     height: 100vh;
 }
+
+
+/* Ceci est une "CLASSE CSS" on l'intégrer dans le code HTML afin de paramétrer les balises HTML du site */
 
 .logo1 {
     width: 25%;
@@ -36,7 +47,6 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     padding: 50px;
 }
 
@@ -60,13 +70,10 @@ h1 {
     color: green;
 }
 
-
-
 .video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 iframe {
@@ -98,9 +105,6 @@ iframe {
     background-color: white;
 }
 
-
-
 .VignettePersonnage img {
     width: 150px;
-
 }
