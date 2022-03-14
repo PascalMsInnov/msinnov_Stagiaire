@@ -21,7 +21,7 @@ body {
 }
 
 .logo1 img {
-    width: 80%;
+    /* definissez la largeur du logo 1 à 80% avec la propriété width */
 }
 
 .logo2 {
@@ -31,15 +31,16 @@ body {
 }
 
 .logo2 img {
-    width: 40%;
+    /* definissez la largeur du logo 2 à 40% avec la propriété width */
 }
 
+/* La balise H1 est une balise de base, lorque l'on y intégrer des propriétés, toute les balises H1 du site auront ces propriétés, c'est de l'héritage */
 h1 {
-    border: solid 1px;
+    /* border: solid 1px;
     border-radius: 10px;
     padding: 15px;
     margin: 0px;
-    background-color: white;
+    background-color: white; */
 }
 
 .containerPrincipal {
